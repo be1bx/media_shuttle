@@ -1,6 +1,6 @@
 # 🚀 MediaShuttle Bot
 
-Попробовать бота в Telegram: @media_shuttlebot
+Попробовать бота в Telegram: @media_shuttlebot                                         
 Асинхронный Telegram-бот на **Aiogram 3**, который не просто качает видео, а понимает их.
 
 ## ✨ Основные функции
