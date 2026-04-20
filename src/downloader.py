@@ -13,8 +13,8 @@ class VideoDownloader:
             'outtmpl': f'{self.download_folder}/%(title)s.%(ext)s',
             'noplaylist': True,
             'quiet': True,
-            'cookiefile': 'cookies.txt',  # ВОТ ЭТА СТРОЧКА
-            'javascript_runtime': 'node',  # Явно говорим: "Юзай Ноду!"
+            'cookiefile': 'cookies.txt', 
+            'javascript_runtime': 'node', 
             'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         }
 
