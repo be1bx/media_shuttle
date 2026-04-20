@@ -48,3 +48,4 @@ class VideoDownloader:
             if opts.get('postprocessors'):
                 filename = filename.rsplit('.', 1)[0] + '.mp3'
             return {'filepath': filename}
+
