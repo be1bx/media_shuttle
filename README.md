@@ -14,3 +14,4 @@
 - **AI:** Google GenAI SDK
 - **DB:** PostgreSQL + asyncpg
 - **Infrastructure:** Docker, Docker Compose
+
