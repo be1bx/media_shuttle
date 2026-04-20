@@ -74,10 +74,10 @@ async def process_ai(callback: types.CallbackQuery):
         # 2. Загружаем файл в Google File API
         video_file = client.files.upload(file=file_path)
         
-        # 3. Ждем, пока Google его "переварит" (обязательный шаг!)
+        # 3. Ждем, пока Google его "переварит"
         await status_msg.edit_text("🧠 ИИ смотрит видео... подожди немного.")
         
-        # Простая проверка статуса (в идеале нужно делать цикл, но для начала сойдет)
+        # Простая проверка статуса
         import time
         while video_file.state.name == "PROCESSING":
             time.sleep(2)
